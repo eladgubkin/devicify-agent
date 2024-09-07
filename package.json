@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "net-snmp": "^3.13.2",
+    "node-arp": "^1.0.6"
+  }
+}
