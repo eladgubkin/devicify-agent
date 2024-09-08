@@ -487,6 +487,8 @@ async function scanNetwork(start, end) {
 }
 
 // Run the scan
-scanNetwork("172.21.8.33", "172.21.8.39").then(() =>
-  console.log("Scan complete")
-);
+if (module === require.main) {
+  scanNetwork("172.21.8.33", "172.21.8.39").then(() =>
+    console.log("Scan complete")
+  );
+}
